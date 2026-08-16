@@ -1,0 +1,19 @@
+{
+  "hyperparameters": {
+    "hidden_dims": [
+      128,
+      64
+    ],
+    "activation": "relu",
+    "dropout": 0.2,
+    "lr": 0.01,
+    "weight_decay": 0.0001,
+    "batch_size": 32,
+    "optimizer": "adam"
+  },
+  "train_rmse": 16421.185546875,
+  "val_rmse_early_stopping_split": 26346.330078125,
+  "test_rmse_held_out": 26728.0390625,
+  "best_epoch": 114,
+  "k_folds_used_in_search": 9
+}

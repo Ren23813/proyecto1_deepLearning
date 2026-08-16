@@ -225,7 +225,6 @@ def main():
 
     numeric_cols, categorical_cols = section_overview(df)
     section_descriptive_stats(df, numeric_cols, categorical_cols, args.outdir)
-    missing_table = section_missing_and_outliers(df, numeric_cols, args.outdir)
     section_visualizations(df, numeric_cols, categorical_cols, args.outdir)
 
     print("\nEDA completo. Revisar carpeta:", args.outdir)
